@@ -123,6 +123,12 @@
     <EmbeddedResource Include="Consultas\FrmConsultaBodega.resx">
       <DependentUpon>FrmConsultaBodega.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_ConsultaLinea.resx">
+      <DependentUpon>Frm_ConsultaLinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_ConsultaMarca.resx">
+      <DependentUpon>Frm_ConsultaMarca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Consultas\Frm_ConsultaProveedor.resx">
       <DependentUpon>Frm_ConsultaProveedor.cs</DependentUpon>
     </EmbeddedResource>

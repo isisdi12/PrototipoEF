@@ -124,7 +124,7 @@
             // 
             // Btn_consultar
             // 
-            this.Btn_consultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(40)))), ((int)(((byte)(15)))));
+            this.Btn_consultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
             this.Btn_consultar.FlatAppearance.BorderSize = 3;
             this.Btn_consultar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.Btn_consultar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
@@ -145,7 +145,7 @@
             // Btn_borrar
             // 
             this.Btn_borrar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Btn_borrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(40)))), ((int)(((byte)(15)))));
+            this.Btn_borrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
             this.Btn_borrar.FlatAppearance.BorderSize = 3;
             this.Btn_borrar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.Btn_borrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
@@ -165,7 +165,7 @@
             // 
             // Btn_guardar
             // 
-            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(40)))), ((int)(((byte)(15)))));
+            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
             this.Btn_guardar.FlatAppearance.BorderSize = 3;
             this.Btn_guardar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.Btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
@@ -185,7 +185,7 @@
             // 
             // Btn_editar
             // 
-            this.Btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(40)))), ((int)(((byte)(15)))));
+            this.Btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
             this.Btn_editar.FlatAppearance.BorderSize = 3;
             this.Btn_editar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.Btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
@@ -205,7 +205,7 @@
             // 
             // Btn_ingresar
             // 
-            this.Btn_ingresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(40)))), ((int)(((byte)(15)))));
+            this.Btn_ingresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
             this.Btn_ingresar.FlatAppearance.BorderSize = 3;
             this.Btn_ingresar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.Btn_ingresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
@@ -222,10 +222,11 @@
             this.Btn_ingresar.Text = "Ingresar";
             this.Btn_ingresar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_ingresar.UseVisualStyleBackColor = false;
+            this.Btn_ingresar.Click += new System.EventHandler(this.Btn_ingresar_Click);
             // 
             // Pnl_nombreForm
             // 
-            this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(40)))), ((int)(((byte)(15)))));
+            this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.Lbl_Bodega);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
@@ -256,9 +257,9 @@
             this.Lbl_Bodega.Location = new System.Drawing.Point(23, 16);
             this.Lbl_Bodega.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_Bodega.Name = "Lbl_Bodega";
-            this.Lbl_Bodega.Size = new System.Drawing.Size(265, 20);
+            this.Lbl_Bodega.Size = new System.Drawing.Size(241, 20);
             this.Lbl_Bodega.TabIndex = 0;
-            this.Lbl_Bodega.Text = "MANTENIMIENTO DE BODEGA";
+            this.Lbl_Bodega.Text = "MANTENIMIENTO DE LINEA";
             // 
             // btn_minimizar
             // 

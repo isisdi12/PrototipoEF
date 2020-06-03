@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Capa_Diseño.Consultas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Diseño.Mantenimiento;
 
 namespace Capa_Diseño
 {
@@ -68,12 +70,12 @@ namespace Capa_Diseño
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
+         
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -101,6 +103,101 @@ namespace Capa_Diseño
             foreach (Form childForm in MdiChildren)
             {
                 childForm.Close();
+            }
+        }
+
+        bool ventanalinea = false;
+        Frm_Linea linea = new Frm_Linea();
+
+        private void lineaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Linea);
+            if (ventanalinea == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    linea= new Frm_Linea();
+                }
+
+                linea.MdiParent = this;
+                linea.Show();
+                Application.DoEvents();
+                ventanalinea = true;
+            }
+            else
+            {
+                linea.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanamarca = false;
+        Frm_Marca marca = new Frm_Marca();
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Marca);
+            if (ventanamarca == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    marca = new Frm_Marca();
+                }
+
+                marca.MdiParent = this;
+                marca.Show();
+                Application.DoEvents();
+                ventanamarca = true;
+            }
+            else
+            {
+                marca.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaprov = false;
+        Frm_Proveedores proveedor = new Frm_Proveedores();
+        private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Proveedores);
+            if (ventanaprov == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    proveedor = new Frm_Proveedores();
+                }
+
+                proveedor.MdiParent = this;
+                proveedor.Show();
+                Application.DoEvents();
+                ventanaprov = true;
+            }
+            else
+            {
+                proveedor.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanabod = false;
+        Frm_Bodegas bodega = new Frm_Bodegas();
+
+        private void bodegaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Bodegas);
+            if (ventanabod == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    bodega = new Frm_Bodegas();
+                }
+
+                bodega.MdiParent = this;
+                bodega.Show();
+                Application.DoEvents();
+                ventanabod = true;
+            }
+            else
+            {
+                bodega.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }
