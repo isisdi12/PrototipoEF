@@ -46,14 +46,104 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\Frm_ConsultaBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaBodega.Designer.cs">
+      <DependentUpon>Frm_ConsultaBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaLinea.Designer.cs">
+      <DependentUpon>Frm_ConsultaLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaMarca.Designer.cs">
+      <DependentUpon>Frm_ConsultaMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaProveedor.Designer.cs">
+      <DependentUpon>Frm_ConsultaProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConusltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConusltaProducto.Designer.cs">
+      <DependentUpon>Frm_ConusltaProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimeintoMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimeintoMarca.Designer.cs">
+      <DependentUpon>Frm_MantenimeintoMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoBodega.Designer.cs">
+      <DependentUpon>Frm_MantenimientoBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoLinea.Designer.cs">
+      <DependentUpon>Frm_MantenimientoLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoProducto.Designer.cs">
+      <DependentUpon>Frm_MantenimientoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_MantenimientoProveedor.Designer.cs">
+      <DependentUpon>Frm_MantenimientoProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consultas\Frm_ConsultaBodega.resx">
+      <DependentUpon>Frm_ConsultaBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_ConsultaLinea.resx">
+      <DependentUpon>Frm_ConsultaLinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_ConsultaMarca.resx">
+      <DependentUpon>Frm_ConsultaMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_ConsultaProveedor.resx">
+      <DependentUpon>Frm_ConsultaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_ConusltaProducto.resx">
+      <DependentUpon>Frm_ConusltaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_MantenimeintoMarca.resx">
+      <DependentUpon>Frm_MantenimeintoMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_MantenimientoBodega.resx">
+      <DependentUpon>Frm_MantenimientoBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_MantenimientoLinea.resx">
+      <DependentUpon>Frm_MantenimientoLinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_MantenimientoProducto.resx">
+      <DependentUpon>Frm_MantenimientoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_MantenimientoProveedor.resx">
+      <DependentUpon>Frm_MantenimientoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,8 +173,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Consultas\" />
-    <Folder Include="Mantenimientos\" />
     <Folder Include="Procesos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,3 +3,9 @@ C:\Users\prueb\Desktop\Examen\Capa_Datos\bin\Debug\Capa_Datos.pdb
 C:\Users\prueb\Desktop\Examen\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
 C:\Users\prueb\Desktop\Examen\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\prueb\Desktop\Examen\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\ISIS\Desktop\2020\Examen\PrototipoEF\Examen\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\ISIS\Desktop\2020\Examen\PrototipoEF\Examen\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\ISIS\Desktop\2020\Examen\PrototipoEF\Examen\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\ISIS\Desktop\2020\Examen\PrototipoEF\Examen\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\ISIS\Desktop\2020\Examen\PrototipoEF\Examen\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\ISIS\Desktop\2020\Examen\PrototipoEF\Examen\Capa_Datos\obj\Debug\Capa_Datos.pdb
