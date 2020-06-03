@@ -52,6 +52,18 @@
     <Compile Include="Consultas\FrmConsultaBodega.Designer.cs">
       <DependentUpon>FrmConsultaBodega.cs</DependentUpon>
     </Compile>
+    <Compile Include="Consultas\Frm_ConsultaLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaLinea.Designer.cs">
+      <DependentUpon>Frm_ConsultaLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_ConsultaMarca.Designer.cs">
+      <DependentUpon>Frm_ConsultaMarca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas\Frm_ConsultaProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
